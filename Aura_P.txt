@@ -1,0 +1,28 @@
+		Data:	4/5/2022
+	
+	Projeto 14
+	
+
+
+ 1 crieSprite para o balão
+ 2 adicioneImagem para o balão
+ 3 adicione velocidade para fazer o balão se mover
+ 4 mudar a dimensão do balão
+ 5 coloque tempo de vida ao balão
+
+
+
+function colorBalloon() {
+ 1 var color = createSprite(0,Math.round(random(20, 370)), 10, 10);	
+ 2 color.addImage(color_balloonImage);
+ 3 color.velocityX = 3;
+ 4 color.lifetime = 150;
+ 5 color.scale = 0.1;
+ 5.5 obs: o scale do pink é 1.5
+
+
+	mude o valor do balão aleatório para 4
+
+  var select_balloon = Math.round(random(1,1));
+  			|
+  var select_balloon = Math.round(random(1,4));                        
